@@ -1,0 +1,16 @@
+Getting Started
+    git init - start a new repo
+    git clone <url> - clone an existing repo
+Prepare to Commit
+    git add <file> - add untracked file or unstaged changes
+    git add . - add all untracked files and unstaged changes
+    git rm <file> - delete file
+    git reset <file> - unstage one file
+    git reset - unstage everything
+    git reset --hard - delete all staged and unstaged changes
+    git status - check what you added
+    git stash - ‘stash’ all staged and unstaged changes
+Make Commits
+    git commit - make a commit
+    git commit -m ‘message’ - make a commit
+    git commit -am ‘message’ - commit all unstaged changes
