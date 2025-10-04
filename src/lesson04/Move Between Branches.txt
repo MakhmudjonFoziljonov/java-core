@@ -1,0 +1,18 @@
+Move Between Branches
+    git switch <name> - switch branches
+    git checkout <name> - switch branches
+    git switch -c <name> - create a branch
+    git checkout -b <name> - create a branch
+    git branch - list branches
+    git branch -d <name> - delete branch
+Push Your Changes
+    git push origin main - push the main branch to the remote origin
+    git push - push the current branch to its remote ‘tracking branch’
+Pull Changes
+    git fetch origin main - fetch changes
+    git pull --rebase - fetch changes and then rebase your current branch
+    git fetch --all - fetch all branches
+    git pull - fetch changes and then merge them into your current branch
+
+Practice
+https://learngitbranching.js.org/
